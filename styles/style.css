@@ -50,3 +50,62 @@ nav{
     height: auto;
     padding: 10px 15px;
 }
+.banner{
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+.banner-section1{
+    width:50%;
+    background-image: url("../images/Group 14.png");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+
+}
+
+.banner1{
+    height: 500px;
+}
+.banner-section1 h3{
+    font-size: 25pt;
+    margin-bottom: 0;
+    text-align: center;
+}
+.banner-section1 h1{
+    font-size: 50pt;
+    color: #F948B2;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+.banner-section1 li{
+    list-style: none;
+    margin-top: 0;
+    font-weight: 500;
+    color: #534C64;
+    margin-bottom: 10px;
+}
+.btn1{
+    width: auto;
+    height: auto;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--pr-color);
+    color: white;
+    font-weight: 700;
+}
+.btn2{
+    width: auto;
+    height: auto;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #4EC5F7;
+    color: white;
+    font-weight: 700;
+}
