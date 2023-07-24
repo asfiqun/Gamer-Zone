@@ -1,5 +1,5 @@
 *{
-    font-family: 'Work Sans', sans-serif;;
+    font-family: 'Work Sans', sans-serif;
 }
 :root{
     --pr-color:#ff42a5;
@@ -108,4 +108,219 @@ nav{
     background-color: #4EC5F7;
     color: white;
     font-weight: 700;
+}
+.video-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.video-section h3{
+    font-size: 25pt;
+    margin-bottom: 10px;
+}
+.video-section p{
+    color: #534C64;
+    font-size: 10pt;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+}
+.video-grid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 auto;
+}
+.video-container{
+    width: 250px;
+    margin-top: 20px;
+}
+.video-container p{
+    text-align: left;
+}
+.image-container{
+    width:250px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.video-thumbnail{
+    width:250px;
+    height: 300px;
+    opacity: 1;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.fa-circle-play{
+    font-size:25pt;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+.overlay h6{
+    margin-top: 10px;
+    color: var(--pr-color);
+    font-size: 11pt;
+}
+.overlay:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.ad-section{
+    width: 100%;
+    height: 600px;
+    padding:50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.ad-desc{
+    width: 20vw;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 100px;
+}
+.ad-desc h3{
+    width:18vw;
+    font-size: 25pt;
+    margin-bottom: 0;
+    text-align: end;
+}
+
+.ad-desc p{
+    font-size: 10pt;
+    color: #534C64;
+    text-align: right;
+    width: 18vw;
+
+}
+.ad-image{
+    position: relative;
+}
+.ad-img1{
+    width:450px;
+    padding-right: 100px;    
+}
+.ad-img2{
+    width:240px;
+    padding-top: 260px;
+    right: 0;
+    top:0;
+    padding-right: 415px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.career-section{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top:0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--pr-color);
+}
+.career-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+    padding-left: 200px;
+}
+.career-desc h3{
+    font-size: 30pt;
+    color: white;
+    margin: 0 0;
+}
+.career-desc p{
+    margin-top: 10px;
+    color: white;
+    font-size: 10pt;
+    width: 500px;
+}
+.career-desc ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 0;
+    row-gap:10px ;
+    column-gap: 20px;
+  }
+
+  .career-desc ul li{
+    list-style: none;
+    font-size: 11pt;
+    color: white;
+    font-weight: 500;
+  }
+
+.career-img{
+    width: 50vw;
+}
+.btn3{
+    width: auto;
+    height: auto;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: var(--pr-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.category-section{
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 50px 0px;
+    padding-bottom: 100px;
+}
+.category-option{
+    background-color: white;
+    display: flex;
+    border: none;
+    border-radius: 100px;
+    width: auto;
+    height: 70px;
+    padding: 10px 30px;
+    justify-content: center;
+}
+.category-icon{
+    padding-right: 10px;
+    width: 50px;
+    padding-left: 0;
+}
+.category-option h3{
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    text-align: center;
+    padding: 0 auto;
+}
+.category-option:hover{
+    border: 2px solid #ff42a5;
+    color: #ff42a5;
 }
